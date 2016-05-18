@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37541FE41CEC623600741C81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37541FE31CEC623600741C81 /* AppDelegate.swift */; };
+		37541FE61CEC623600741C81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37541FE51CEC623600741C81 /* ViewController.swift */; };
+		37541FE91CEC623600741C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37541FE71CEC623600741C81 /* Main.storyboard */; };
+		37541FEB1CEC623600741C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37541FEA1CEC623600741C81 /* Assets.xcassets */; };
+		37541FEE1CEC623600741C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37541FEC1CEC623600741C81 /* LaunchScreen.storyboard */; };
+		37541FF91CEC623700741C81 /* SelectMoodViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37541FF81CEC623700741C81 /* SelectMoodViewTests.swift */; };
+		375420041CEC623700741C81 /* SelectMoodViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375420031CEC623700741C81 /* SelectMoodViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37541FF51CEC623700741C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37541FD81CEC623500741C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37541FDF1CEC623600741C81;
+			remoteInfo = SelectMoodView;
+		};
+		375420001CEC623700741C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37541FD81CEC623500741C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37541FDF1CEC623600741C81;
+			remoteInfo = SelectMoodView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37541FE01CEC623600741C81 /* SelectMoodView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectMoodView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37541FE31CEC623600741C81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37541FE51CEC623600741C81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37541FE81CEC623600741C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37541FEA1CEC623600741C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37541FED1CEC623600741C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37541FEF1CEC623700741C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37541FF41CEC623700741C81 /* SelectMoodViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectMoodViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37541FF81CEC623700741C81 /* SelectMoodViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMoodViewTests.swift; sourceTree = "<group>"; };
+		37541FFA1CEC623700741C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37541FFF1CEC623700741C81 /* SelectMoodViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectMoodViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375420031CEC623700741C81 /* SelectMoodViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMoodViewUITests.swift; sourceTree = "<group>"; };
+		375420051CEC623700741C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37541FDD1CEC623600741C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37541FF11CEC623700741C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37541FFC1CEC623700741C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37541FD71CEC623500741C81 = {
+			isa = PBXGroup;
+			children = (
+				37541FE21CEC623600741C81 /* SelectMoodView */,
+				37541FF71CEC623700741C81 /* SelectMoodViewTests */,
+				375420021CEC623700741C81 /* SelectMoodViewUITests */,
+				37541FE11CEC623600741C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37541FE11CEC623600741C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37541FE01CEC623600741C81 /* SelectMoodView.app */,
+				37541FF41CEC623700741C81 /* SelectMoodViewTests.xctest */,
+				37541FFF1CEC623700741C81 /* SelectMoodViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37541FE21CEC623600741C81 /* SelectMoodView */ = {
+			isa = PBXGroup;
+			children = (
+				37541FE31CEC623600741C81 /* AppDelegate.swift */,
+				37541FE51CEC623600741C81 /* ViewController.swift */,
+				37541FE71CEC623600741C81 /* Main.storyboard */,
+				37541FEA1CEC623600741C81 /* Assets.xcassets */,
+				37541FEC1CEC623600741C81 /* LaunchScreen.storyboard */,
+				37541FEF1CEC623700741C81 /* Info.plist */,
+			);
+			path = SelectMoodView;
+			sourceTree = "<group>";
+		};
+		37541FF71CEC623700741C81 /* SelectMoodViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				37541FF81CEC623700741C81 /* SelectMoodViewTests.swift */,
+				37541FFA1CEC623700741C81 /* Info.plist */,
+			);
+			path = SelectMoodViewTests;
+			sourceTree = "<group>";
+		};
+		375420021CEC623700741C81 /* SelectMoodViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				375420031CEC623700741C81 /* SelectMoodViewUITests.swift */,
+				375420051CEC623700741C81 /* Info.plist */,
+			);
+			path = SelectMoodViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37541FDF1CEC623600741C81 /* SelectMoodView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375420081CEC623700741C81 /* Build configuration list for PBXNativeTarget "SelectMoodView" */;
+			buildPhases = (
+				37541FDC1CEC623600741C81 /* Sources */,
+				37541FDD1CEC623600741C81 /* Frameworks */,
+				37541FDE1CEC623600741C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectMoodView;
+			productName = SelectMoodView;
+			productReference = 37541FE01CEC623600741C81 /* SelectMoodView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37541FF31CEC623700741C81 /* SelectMoodViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3754200B1CEC623700741C81 /* Build configuration list for PBXNativeTarget "SelectMoodViewTests" */;
+			buildPhases = (
+				37541FF01CEC623700741C81 /* Sources */,
+				37541FF11CEC623700741C81 /* Frameworks */,
+				37541FF21CEC623700741C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37541FF61CEC623700741C81 /* PBXTargetDependency */,
+			);
+			name = SelectMoodViewTests;
+			productName = SelectMoodViewTests;
+			productReference = 37541FF41CEC623700741C81 /* SelectMoodViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37541FFE1CEC623700741C81 /* SelectMoodViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3754200E1CEC623700741C81 /* Build configuration list for PBXNativeTarget "SelectMoodViewUITests" */;
+			buildPhases = (
+				37541FFB1CEC623700741C81 /* Sources */,
+				37541FFC1CEC623700741C81 /* Frameworks */,
+				37541FFD1CEC623700741C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375420011CEC623700741C81 /* PBXTargetDependency */,
+			);
+			name = SelectMoodViewUITests;
+			productName = SelectMoodViewUITests;
+			productReference = 37541FFF1CEC623700741C81 /* SelectMoodViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37541FD81CEC623500741C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kvanaMini1;
+				TargetAttributes = {
+					37541FDF1CEC623600741C81 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					37541FF31CEC623700741C81 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JYBV57ZJUU;
+						TestTargetID = 37541FDF1CEC623600741C81;
+					};
+					37541FFE1CEC623700741C81 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JYBV57ZJUU;
+						TestTargetID = 37541FDF1CEC623600741C81;
+					};
+				};
+			};
+			buildConfigurationList = 37541FDB1CEC623600741C81 /* Build configuration list for PBXProject "SelectMoodView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37541FD71CEC623500741C81;
+			productRefGroup = 37541FE11CEC623600741C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37541FDF1CEC623600741C81 /* SelectMoodView */,
+				37541FF31CEC623700741C81 /* SelectMoodViewTests */,
+				37541FFE1CEC623700741C81 /* SelectMoodViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37541FDE1CEC623600741C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37541FEE1CEC623600741C81 /* LaunchScreen.storyboard in Resources */,
+				37541FEB1CEC623600741C81 /* Assets.xcassets in Resources */,
+				37541FE91CEC623600741C81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37541FF21CEC623700741C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37541FFD1CEC623700741C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37541FDC1CEC623600741C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37541FE61CEC623600741C81 /* ViewController.swift in Sources */,
+				37541FE41CEC623600741C81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37541FF01CEC623700741C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37541FF91CEC623700741C81 /* SelectMoodViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37541FFB1CEC623700741C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375420041CEC623700741C81 /* SelectMoodViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37541FF61CEC623700741C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37541FDF1CEC623600741C81 /* SelectMoodView */;
+			targetProxy = 37541FF51CEC623700741C81 /* PBXContainerItemProxy */;
+		};
+		375420011CEC623700741C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37541FDF1CEC623600741C81 /* SelectMoodView */;
+			targetProxy = 375420001CEC623700741C81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37541FE71CEC623600741C81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37541FE81CEC623600741C81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37541FEC1CEC623600741C81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37541FED1CEC623600741C81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375420061CEC623700741C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		375420071CEC623700741C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		375420091CEC623700741C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SelectMoodView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.SelectMoodView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3754200A1CEC623700741C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SelectMoodView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.SelectMoodView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3754200C1CEC623700741C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SelectMoodViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.SelectMoodViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectMoodView.app/SelectMoodView";
+			};
+			name = Debug;
+		};
+		3754200D1CEC623700741C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SelectMoodViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.SelectMoodViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectMoodView.app/SelectMoodView";
+			};
+			name = Release;
+		};
+		3754200F1CEC623700741C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SelectMoodViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.SelectMoodViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelectMoodView;
+			};
+			name = Debug;
+		};
+		375420101CEC623700741C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SelectMoodViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.SelectMoodViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelectMoodView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37541FDB1CEC623600741C81 /* Build configuration list for PBXProject "SelectMoodView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375420061CEC623700741C81 /* Debug */,
+				375420071CEC623700741C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375420081CEC623700741C81 /* Build configuration list for PBXNativeTarget "SelectMoodView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375420091CEC623700741C81 /* Debug */,
+				3754200A1CEC623700741C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3754200B1CEC623700741C81 /* Build configuration list for PBXNativeTarget "SelectMoodViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3754200C1CEC623700741C81 /* Debug */,
+				3754200D1CEC623700741C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3754200E1CEC623700741C81 /* Build configuration list for PBXNativeTarget "SelectMoodViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3754200F1CEC623700741C81 /* Debug */,
+				375420101CEC623700741C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37541FD81CEC623500741C81 /* Project object */;
+}
