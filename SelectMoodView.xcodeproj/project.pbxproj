@@ -14,6 +14,7 @@
 		37541FEE1CEC623600741C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37541FEC1CEC623600741C81 /* LaunchScreen.storyboard */; };
 		37541FF91CEC623700741C81 /* SelectMoodViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37541FF81CEC623700741C81 /* SelectMoodViewTests.swift */; };
 		375420041CEC623700741C81 /* SelectMoodViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375420031CEC623700741C81 /* SelectMoodViewUITests.swift */; };
+		375420141CEC684900741C81 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375420131CEC684900741C81 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		37541FFF1CEC623700741C81 /* SelectMoodViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectMoodViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		375420031CEC623700741C81 /* SelectMoodViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMoodViewUITests.swift; sourceTree = "<group>"; };
 		375420051CEC623700741C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375420131CEC684900741C81 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				37541FE31CEC623600741C81 /* AppDelegate.swift */,
 				37541FE51CEC623600741C81 /* ViewController.swift */,
+				375420131CEC684900741C81 /* CollectionViewCell.swift */,
 				37541FE71CEC623600741C81 /* Main.storyboard */,
 				37541FEA1CEC623600741C81 /* Assets.xcassets */,
 				37541FEC1CEC623600741C81 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				37541FE61CEC623600741C81 /* ViewController.swift in Sources */,
 				37541FE41CEC623600741C81 /* AppDelegate.swift in Sources */,
+				375420141CEC684900741C81 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
